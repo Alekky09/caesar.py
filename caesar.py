@@ -12,7 +12,7 @@ print(k)
 print("plaintext:", end = "")
 pt = get_string(" ")
 
-print("cyphertext: ", end = "")
+print("ciphertext: ", end = "")
 
 for char in pt:
     if char.isalpha():
