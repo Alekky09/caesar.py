@@ -6,8 +6,8 @@ if len(argv) != 2:
 
 k = int(argv[1])
 
-if k > 25:
-    k = k % 25
+if k > 26:
+    k = k % 26
 
 print(k)
 print("plaintext:", end = "")
@@ -20,7 +20,7 @@ for char in pt:
         char = chr(ord(char) + k)
 
         if not char.isalpha():
-            char = chr(ord(char) - 25)
+            char = chr(ord(char) - 26)
 
     print(char, end="")
 print("")
