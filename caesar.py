@@ -20,8 +20,6 @@ for char in pt:
     if char.isalpha():
         char = chr(ord(char) + k)
 
-        if not char.isalpha():
-            char = chr(ord(char) - 25)
 
      print(char, end="")
 print("")
