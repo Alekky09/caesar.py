@@ -10,9 +10,9 @@ if k > 26:
     k = k % 26
 
 print(k)
-print("plaintext:", end = "")
-pt = get_string(" ")
-print("ciphertext: ", end = "")
+
+pt = get_string("plaintext:")
+print("ciphertext: ", end="")
 
 for char in pt:
 
@@ -24,8 +24,3 @@ for char in pt:
 
     print(char, end="")
 print("")
-
-
-
-
-
