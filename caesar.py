@@ -9,8 +9,6 @@ k = int(argv[1])
 if k > 26:
     k = k % 26
 
-print(k)
-
 pt = get_string("plaintext:")
 print("ciphertext: ", end="")
 
